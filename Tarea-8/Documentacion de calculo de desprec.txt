@@ -1,0 +1,44 @@
+Documentacion de calculo de despreciacion o amortizacion de vehiculos
+
+1. Introducción
+
+Este programa fue desarrollado en lenguaje C con el objetivo de calcular la depreciación o amortización de un vehículo a lo largo del tiempo. El sistema permite conocer cómo disminuye el valor del vehículo mes por mes hasta llegar a un valor final estimado.
+
+2. Objetivo del programa
+
+El objetivo principal es automatizar el cálculo de la depreciación lineal de un vehículo, generando una tabla mensual con los valores correspondientes, facilitando así el análisis financiero del mismo.
+
+3. Funcionamiento del programa
+
+El programa solicita al usuario los siguientes datos:
+
+Valor inicial del vehículo
+Valor final del vehículo
+Tiempo de amortización en meses
+
+Con estos datos, el sistema realiza el cálculo de la depreciación mensual utilizando la siguiente fórmula:
+
+Depreciación mensual = (Valor inicial - Valor final) / Meses
+
+Luego, el programa va restando este valor mes por mes hasta llegar al valor final.
+
+4. Generación de la tabla
+
+El programa genera una tabla con los siguientes campos:
+
+Mes
+Valor inicial del mes
+Depreciación mensual
+Valor final del mes
+
+Esta tabla es almacenada automáticamente en un archivo de texto llamado:
+
+amortizacion.txt
+
+5. Resultado esperado
+
+El resultado es un archivo de texto con una tabla ordenada que muestra la disminución del valor del vehículo mes a mes, lo cual permite visualizar claramente su depreciación.
+
+6. Conclusión
+
+Este programa facilita el cálculo de la depreciación de un vehículo de forma automática, evitando errores manuales y permitiendo un mejor control financiero. Además, refuerza el uso de estructuras repetitivas, manejo de archivos y operaciones matemáticas en lenguaje C.

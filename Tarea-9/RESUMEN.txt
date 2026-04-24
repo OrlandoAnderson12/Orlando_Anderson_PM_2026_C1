@@ -1,0 +1,69 @@
+RESUMEN
+Capítulo 9: Introducción a los lenguajes formales (Matemática para la computación)
+1. Introducción a los lenguajes formales
+
+Los lenguajes formales son sistemas matemáticos utilizados para describir conjuntos de cadenas de símbolos siguiendo reglas bien definidas. Estos lenguajes son fundamentales en la computación, ya que permiten definir la sintaxis de los lenguajes de programación, así como el diseño de compiladores y autómatas.
+
+Un lenguaje formal está compuesto por:
+
+Un alfabeto (conjunto finito de símbolos)
+Reglas de formación (gramática)
+Cadenas válidas generadas a partir del alfabeto
+2. Importancia en la computación
+
+Los lenguajes formales son esenciales porque permiten:
+
+Definir la estructura de los lenguajes de programación
+Diseñar compiladores e intérpretes
+Modelar problemas computacionales
+Analizar la sintaxis de expresiones
+3. Ejemplo de uso de lenguajes formales
+
+Un ejemplo sencillo de lenguaje formal es el conjunto de expresiones aritméticas válidas.
+
+Por ejemplo, con un alfabeto:
+{0, 1, +, *}
+
+Se pueden formar expresiones como:
+
+1+1
+0*1+1
+
+Pero no son válidas expresiones como:
+
+++11
+1+*0
+
+Esto demuestra cómo las reglas del lenguaje determinan qué cadenas son correctas.
+
+4. Máquinas de estado
+
+Una máquina de estado finito es un modelo matemático utilizado para reconocer lenguajes formales. Está compuesta por:
+
+Un conjunto de estados
+Un estado inicial
+Estados de aceptación
+Transiciones entre estados según símbolos de entrada
+5. Ejemplo de máquina de estado
+
+Un ejemplo simple es una máquina que reconoce cadenas binarias que terminan en “1”.
+
+Estados:
+
+q0: estado inicial
+q1: estado de aceptación
+
+Transiciones:
+
+Desde q0:
+Si recibe 0 → permanece en q0
+Si recibe 1 → pasa a q1
+Desde q1:
+Si recibe 0 → pasa a q0
+Si recibe 1 → permanece en q1
+
+La cadena es aceptada si termina en el estado q1.
+
+6. Conclusión
+
+Los lenguajes formales son la base teórica de la computación moderna. Permiten definir reglas precisas para los lenguajes de programación y son fundamentales para el diseño de máquinas de estado, autómatas y compiladores. Su estudio facilita la comprensión de cómo las computadoras interpretan y procesan información.
